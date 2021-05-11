@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+h1.attention{
+    color: #fafafa;
+    text-align: center;
+    font-size: 6vw;
+}
+p.attention{
+    margin: 20px;
+    color: #fafafa;
+    text-align: center;
+    font-size: 1vw;
+}
+a.attention{
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+a.attention:hover{
+    color: #fafafa;
+}
+
+@media screen and (orientation: portrait){
+    h1.attention{
+        font-size: 15vw;
+    }
+    p.attention{
+        font-size: 6vw;
+    }
+}
