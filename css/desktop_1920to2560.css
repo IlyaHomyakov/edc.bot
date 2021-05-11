@@ -1,0 +1,59 @@
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px){
+
+    #header{
+        height: 100px;
+    }
+    .header_inner{
+        width: 1400px;
+    }
+    p.logo{
+        margin: 0 0 0 14px;
+    }
+    img.logo{
+        width: 50px;
+        border-radius: 25px;
+    }
+
+    #content{
+        margin: 100px 0 0 0;
+        width: 1400px;
+    }
+    h1.bot_info{
+        margin: 50px 0 0 0;
+        font-size: 100px;
+    }
+    p.bot_info{
+        margin: 14px 0 0 0;
+    }
+    .commands_content{
+        margin: 65px 0;
+        width: 80%;
+    }
+    ul.commands {
+        width: 80%;
+    }
+    li.commands{
+        background: #2f3136;
+        margin: 14px 0;
+        padding: 14px 20px;
+        border-radius: 5px;
+    }
+
+    #footer{
+        width: 100%;
+        height: 78px;
+        background: #2f3136;
+    }
+    .footer_inner{
+        width: 1400px;
+        align-items: center;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    p.copyright{
+        color: rgba(255, 255, 255, 0.8);
+    }
+    a.credits{
+        color: rgba(255, 255, 255, 0.8);
+    }
+}

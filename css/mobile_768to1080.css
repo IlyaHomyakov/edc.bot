@@ -1,0 +1,66 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1079px){
+
+    #header{
+        height: 100px;
+    }
+    .header_inner{
+        width: 100%;
+        padding: 0 40px;
+        font-size: 28px;
+    }
+    p.logo{
+        margin: 0 0 0 20px;
+    }
+    img.logo{
+        width: 60px;
+        border-radius: 30px;
+    }
+
+    #content{
+        margin: 100px 0 0 0;
+        /*width: 1080px;*/
+    }
+    h1.bot_info{
+        margin: 60px 0 0 0;
+        font-size: 80px;
+    }
+    p.bot_info{
+        margin: 40px 0 0 0;
+        text-align: center;
+        width: 80%;
+        font-size: 26px;
+    }
+    .commands_content{
+        margin: 60px 0;
+        width: 90%;
+    }
+    ul.commands {
+        /*width: 80%;*/
+    }
+    li.commands{
+        font-size: 26px;
+        background: #2f3136;
+        margin: 20px 0;
+        padding: 15px 20px;
+        border-radius: 4px;
+    }
+
+    #footer{
+        width: 100%;
+        height: 80px;
+        background: #2f3136;
+    }
+    .footer_inner{
+        padding: 0 40px;
+        width: 100%;
+        align-items: center;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    p.copyright{
+        color: rgba(255, 255, 255, 0.8);
+    }
+    a.credits{
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
